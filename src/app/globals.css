@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrapper {
+    @apply relative min-h-screen overflow-x-hidden overflow-y-hidden bg-slate-50;
+}
+
+.header {
+    @apply bg-reportly-primary-700 fixed left-0 top-0 z-50 h-16 w-full overflow-hidden px-5 py-3 shadow-lg;
+}
+
+.main {
+    @apply top-16 z-30 ml-0 grow pt-16 duration-500 lg:ml-64;
+}
+
+.aside {
+    @apply bg-reportly-primary fixed left-0 top-16 z-40 min-h-full w-64  text-slate-200 shadow-lg duration-500 lg:translate-x-0;
+}

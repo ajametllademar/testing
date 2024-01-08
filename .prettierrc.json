@@ -1,0 +1,23 @@
+{
+    "tabWidth": 4,
+    "printWidth": 80,
+    "singleQuote": false,
+    "arrowParens": "always",
+    "semi": true,
+    "endOfLine": "auto",
+    "plugins": [
+        "@ianvs/prettier-plugin-sort-imports",
+        "prettier-plugin-tailwindcss"
+    ],
+    "tailwindConfig": "./tailwind.config.ts",
+    "tailwindFunctions": ["clsx"],
+    "importOrder": [
+        "^(react/(.*)$)|^(react$)",
+        "^(next/(.*)$)|^(next$)",
+        "^(@nextui-org/(.*)$)|^(@nextui-org$)",
+        "<THIRD_PARTY_MODULES>",
+        "",
+        "^@/(.*)$",
+        "^[./]"
+    ]
+}
