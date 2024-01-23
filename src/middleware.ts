@@ -14,6 +14,6 @@ export const config = {
          * - images/bgs (background images)
          * - robots.txt (SEO)
          */
-        "/((?!api|_next/static|_next/image|favicon.ico|auth/signin|images|robots.txt]).*)",
+        "/((?!api|_next/static|_next/image|favicon.ico|auth/signin|images|robots.txt).*)",
     ],
 };
